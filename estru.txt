@@ -1,0 +1,72 @@
+Listado de rutas de carpetas para el volumen Windows
+El n£mero de serie del volumen es 000000EB D8BC:B089
+C:.
+***app							- Codigo y las classes
+   |---console						- Comandos Creados
+   |---Exceptions					- Excepciones
+   |---Http							- 
+   |------Controllers					- Controladores
+          |---Auth							-
+   |------Middleware					- Middleware
+   |---Providers						- Service Providers
+***bootstrap 					- app.php arranca el framework
+   |---cache
+***config						- Configuraciones (Las configuraciones hacer en .env)
+***database						- Base de datos
+   |---factories
+   |---migrations
+   |---seeds
+***public						- Index.php punto de entrada de las peteciones
+   |---css
+   |---dist
+   |------css
+          |---alt
+          |---skins
+   |------img
+          |---credit
+   |------js
+          |---pages
+   |---js
+   |---plugins
+   |------bootstrap-slider
+   |------bootstrap-wysihtml5
+   |------iCheck
+          |---flat
+          |---futurico
+          |---line
+          |---minimal
+          |---polaris
+          |---square
+   |------input-mask
+          |---phone-codes
+   |------jQueryUI
+   |------jvectormap
+   |------pace
+   |------timepicker
+   |---svg
+***resources					- Vistas de la Aplicacion - imagenes - js - archivos de tracduccion
+   |---js
+   |------components
+   |---lang
+   |------en
+   |---sass
+   |---views
+       |---bk
+***routes						- Rutas 
+	-api.php						- Rutas de la aplicacion API
+	-channels.php					- Canales de transmicion o Broadcast 
+	-console.php					- Podemos agragar comandos
+	-web.php						- Rutas de la Aplicacion 		(URL de nuesta APP)
+***storage						- Vistas compiladas, sesiones, log
+   |---app
+   |------public							-acceso por simmboli link
+   |---framework
+   |------cache
+          |---data
+   |------sessions
+   |------testing
+   |------views
+   |---logs
+***tests						- test
+   |---Feature
+   |---Unit
